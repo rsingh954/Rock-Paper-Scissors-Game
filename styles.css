@@ -57,14 +57,14 @@ button{
 
 
 .cpu-container{
-    top: 12%;
+    top: 17%;
+    width: 20vw;
     position: absolute;
     bottom: 0%;
     box-shadow: black;
     box-sizing: border-box;
 
 }
-
 
 .score{
     position: relative;
