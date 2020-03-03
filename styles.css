@@ -23,17 +23,17 @@ footer{
 }
 
 .playerSelection {
-    position: absolute;
+    position: relative;
     border: #feb300;
     border-style: solid;
-    width: auto;
-    height: auto;
+    width: 50vw;
+    height: 50v;
     display: flex;
+    left: 25%;
+    right: 50%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    left:16%;
-    bottom: 49%;
     border-radius: 1em;
 
 }
@@ -99,11 +99,11 @@ button{
     border-radius: 1em;
   }
 
-body {
-    margin: 0;
-}
-
 img {
     width: 100%;
     display: block;
+}
+
+body {
+    margin: 0;
 }
