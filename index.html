@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <header>Rock Paper Scissors</header>
+  </head>
+  <body>
+    <div class = "container">
+    <div class = "playerSelection">
+        <div class="box box1">
+          <button type = "submit" name = "rock" value = "rockimg"> 
+          <p></p>
+          <img src="./images/rock.png"/></button>
+      </div>
+        <div class="box box2"><button type = "submit" name = "paper" value = "rockimg"> 
+          <p></p>
+          <img src="./images/paper.png"/></button></div>
+        <div class="box box3"><button type = "submit" name = "scissors" value = "rockimg"> 
+          <p></p>
+          <img src="./images/scissors.png"/></button></div>
+      </div>
+    </div>
+    
+    <div class = 'computerSelection'>
+      <h1>Computer Chose</h1> 
+      <div class = 'cpu-container'>
+        <img id = 'rock-cpu' src="./images/rock.png" alt = 'rock-cpu'>
+      </div>
+
+      <div class = 'cpu-container'>
+          <img id = 'paper-cpu' src="./images/paper.png" alt = 'paper-cpu'>
+      </div>
+
+      <div class = 'cpu-container'>
+          <img id = 'scissors-cpu' src="./images/scissors.png" alt = 'scissors-cpu'>
+      </div>
+    </div>
+    <div class = 'score'>
+      <div class = 'playerScore'>
+        <h5 id = "playerScore"></h5>
+        <h5 id = "computerScore"></h5>
+        <h5 id = "tie"></h5>
+        <button name = 'reset' id ='reset' onclick="Reset()">Reset</button>
+      </div>
+    </div>
+  
+      <script src="main.js"></script>
+  </body>
+  <footer>
+    
+  </footer>
+</html>
+
+
+

@@ -1,0 +1,104 @@
+html{
+   background-color:#fff5d7;
+
+    
+}
+/*Center header text and configure font*/
+header{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+footer{
+    padding-top: 200px;
+    padding-left: 15px;
+}
+
+
+.container{
+    display: flex;
+    align-content: center; 
+}
+
+.playerSelection {
+    position: absolute;
+    border: #feb300;
+    border-style: solid;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left:16%;
+    bottom: 49%;
+    border-radius: 1em;
+
+}
+button{
+    border-radius: 1em;
+}
+
+.computerSelection{
+    position: absolute;
+    /* border-style: groove; */
+    width: 66vw;
+    height: 48.5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 55%;
+    left:16%;
+    bottom: 2%;
+    border-radius: 1em;
+
+}
+
+
+.cpu-container{
+    top: 12%;
+    position: absolute;
+    bottom: 0%;
+    box-shadow: black;
+    box-sizing: border-box;
+
+}
+
+
+.score{
+    position: relative;
+    /* border-style: groove; */
+    width: 15%;
+    height: 45vh;
+    display: flex;
+    border-radius: 1em;
+    padding-left: 16px;
+
+
+}
+
+#rock-cpu {
+    visibility: hidden;
+    border-style: solid;
+    border-color: #feb300;
+    border-radius: 1em;
+  }
+  
+  #paper-cpu {
+    visibility: hidden;
+    border-style: solid;
+    border-color: #feb300;
+    border-radius: 1em;
+  }
+  
+  #scissors-cpu {
+    visibility: hidden;
+    border-style: solid;
+    border-color: #feb300;
+    border-radius: 1em;
+  }
+
+body {
+    margin: 0;
+}
