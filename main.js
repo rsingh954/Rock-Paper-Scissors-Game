@@ -72,7 +72,7 @@ var round = 1;
 function game(playerSelection){ 
   const playerScore = document.getElementById('playerScore');
   const computerScore = document.getElementById('computerScore');
-  const tieScore = document.getElementById('tie')
+  const tieScore = document.getElementById('tieScore');
 
   if(round === 0){
     round = 1;
