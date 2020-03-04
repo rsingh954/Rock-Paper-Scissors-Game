@@ -23,17 +23,17 @@ footer{
 }
 
 .playerSelection {
-    position: absolute;
+    position: relative;
     border: #feb300;
     border-style: solid;
-    width: auto;
-    height: auto;
+    width: 50vw;
+    height: 50v;
     display: flex;
+    left: 25%;
+    right: 50%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    left:16%;
-    bottom: 49%;
     border-radius: 1em;
 
 }
@@ -57,14 +57,14 @@ button{
 
 
 .cpu-container{
-    top: 12%;
+    top: 17%;
+    width: 20vw;
     position: absolute;
     bottom: 0%;
     box-shadow: black;
     box-sizing: border-box;
 
 }
-
 
 .score{
     position: relative;
@@ -98,6 +98,11 @@ button{
     border-color: #feb300;
     border-radius: 1em;
   }
+
+img {
+    width: 100%;
+    display: block;
+}
 
 body {
     margin: 0;

@@ -85,37 +85,37 @@ function game(playerSelection){
     //We use ! as a seperator 
     if(results.split('!')[0] === "You win"){
       winner++;
-      playerScore.innerText += result + '\n';
+      playerScore.innerText += `Round ${round}: ` + result + '\n';
       console.log(results);  
       console.log('You:' + winner + '|' + 'CPU:' + loser);         
     }
     else if(results.split('!')[0] === "You lose"){
       loser++;
-      computerScore.innerText += result + '\n';
+      playerScore.innerText += `Round ${round}: ` + result + '\n';
       console.log(results);  
       console.log('You:' + winner + '|' + 'CPU:' + loser);           
     }
     else if(results.split('!')[0] === "You tie"){
       tie++;
-      tieScore.innerText += result + '\n';
+      playerScore.innerText += `Round ${round}: ` + result + '\n';
       console.log(results);  
       console.log('You:' + winner + '|' + 'CPU:' + loser); 
     }
 
 
-    if (computerChoice == "paper" || round == 5){
+    if (computerChoice === "paper" || round === 6){
       cpuPaperOption.style.visibility = "visible";
       cpuRockOption.style.visibility = "hidden";
       cpuScissorsOption.style.visibility = "hidden";
     }
 
-    else if (computerChoice == "rock" || round == 5){
+    else if (computerChoice === "rock" || round === 6){
       cpuPaperOption.style.visibility = "hidden";
       cpuScissorsOption.style.visibility = "hidden";
       cpuRockOption.style.visibility = "visible";
     }
 
-    else if (computerChoice == "scissors" || round == 5){
+    else if (computerChoice === "scissors" || round === 6){
       cpuScissorsOption.style.visibility = "visible";
       cpuPaperOption.style.visibility = "hidden";
       cpuRockOption.style.visibility = "hidden";
