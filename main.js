@@ -10,7 +10,7 @@ btn.forEach((buttons) => {
   })
 
 })
-//Why did I not need to intialize computerChoice?// 
+
 //When I defined computerChoice it would not let me reference it in game() function but since I removed the declaration it is fine.
 function computerPlay(){
   let algo = Math.floor((Math.random()*10));
