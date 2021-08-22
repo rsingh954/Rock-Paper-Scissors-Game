@@ -153,7 +153,6 @@ cpuRockOption.style.visibility = "hidden";
 }
 
 
-//Why do we need assign const?
 const computerSelection = computerPlay(); 
 const playerSelection = ""; 
 
